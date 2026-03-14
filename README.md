@@ -1,6 +1,6 @@
 # PrimeTrade Task Registry System
 
-A secure, full-stack task management REST API with an interactive React client — built for the PrimeTrade.ai Developer Intern assessment.
+A secure, full-stack task management REST API with an interactive React client , built for the PrimeTrade.ai Developer Intern assessment.
 
 **Author:** Priyanshu Gaurav
 
@@ -18,13 +18,13 @@ A secure, full-stack task management REST API with an interactive React client �
 
 ## Architecture
 
-### Backend — Node.js / Express / MongoDB
+### Backend - Node.js / Express / MongoDB
 - **Auth:** JWT + `bcryptjs` password hashing
 - **Access Control:** RBAC middleware — `USER` (own data) vs `ADMIN` (global access)
 - **Security:** `helmet` for request sanitization
 - **Database:** MongoDB via Mongoose with strict schemas
 
-### Frontend — React / Vite / TailwindCSS
+### Frontend - React / Vite / TailwindCSS
 - Minimalist, responsive interface with full CRUD and real-time feedback
 - Secure JWT handling via Axios interceptors
 
@@ -73,4 +73,4 @@ Client live at `http://localhost:5173`
 
 ## Testing
 
-Import `/backend/postman_collection.json` into Postman. Run **Login User** — the JWT is auto-extracted and set as an environment variable, so all protected routes work immediately.
+Import `/backend/postman_collection.json` into Postman. Run **Login User** , the JWT is auto-extracted and set as an environment variable, so all protected routes work immediately.
